@@ -1,0 +1,134 @@
+body {
+    height: 100vh;
+    color: #f9fbfdf5;
+    text-align: center;
+    background: url('../images/question-mark.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+.container {
+    width: auto;
+    align-content: center;
+}
+
+.my-navbar {
+    border: 0;
+    border-radius: 0;
+    background: #fe501d;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding: 0;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Metamorphous', cursive;
+    color: #f9fbfdf5;
+    font-size: 2rem;
+
+}
+
+.navbar-light .navbar-brand:hover {
+    color: hsl(12, 11%, 83%);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../images/questionfavi.png');
+    align-content: center;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(16, 16, 16, 0.5);
+    border-color: rgb(24, 25, 18);
+    background-color: #f9fbfdf5;
+    border-radius: 50px 50px;
+}
+
+.my-navbar .nav li a {
+    color: #f9fbfdf5;
+    font-family: 'Metamorphous', cursive;
+    font-size: 1.70rem;
+}
+
+.alpha {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4.8rem;
+}
+
+.beta {
+    font-family: 'Special Elite', cursive;
+    font-size: 2.7rem;
+}
+
+.delta {
+    font-size: 2.6rem;
+}
+
+/* Social Media */
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 45px;
+    margin-top: 6px;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .github {
+    background: #6f6f71;
+    box-shadow: 0 0 16px #6f6f71;
+}
+.socialIcons .linkedin {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .youtube {
+    background: #fb1c03;
+    box-shadow: 0 0 16px #fb1c03;
+}
