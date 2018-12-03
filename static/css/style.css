@@ -79,6 +79,39 @@ body {
     font-size: 2.6rem;
 }
 
+.first {
+    font-family: 'Metamorphous', cursive;
+    font-size: 3.70rem;
+}
+
+.second {
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.10rem;
+    font-weight: 500;
+    color: #f6fbf9e8;
+}
+
+#answer {
+    text-transform: lowercase;
+}
+
+.card {
+    background-color: #00000096;
+    border: 1px solid #000000f7;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.table {
+    text-transform: capitalize;
+    background: url('../images/black-puzzle.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.table th, .table td {
+    padding: 1.75rem;
+}
 
 /* Social Media */
 
