@@ -1,4 +1,4 @@
 water
-echo
-candle
-map
+fire
+onion
+suit
