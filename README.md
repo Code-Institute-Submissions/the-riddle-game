@@ -8,6 +8,12 @@ Getting Started:
 #### The player is presented with an text that contains the riddle. Players enter their answer into a textarea and submit their answer using a form.
 #### If a player guesses correctly, they are redirected to the next riddle.
 #### If a player guesses incorrectly, their incorrect guess is stored and printed below the riddle. The textarea is cleared so they can guess again.
+#### To start playing, you will need to clone the repository:
+``` https://github.com/RicardoIslan/the-riddle-game.git ```
+#### Install requirements with pip:
+``` $ pip install -r requirements.txt ```
+#### Run the python file:
+``` python3 run.py ```
 
 Features:
 ---
